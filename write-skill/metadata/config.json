@@ -1,0 +1,16 @@
+{
+  "name": "write-skill",
+  "version": "1.0.0",
+  "description": "Skill 编写规范，指导如何创建和维护 .kiro/skills/ 下的技能",
+  "author": "user",
+  "language": "zh-CN",
+  "skill_root": ".kiro/skills",
+  "max_skill_md_lines": 200,
+  "standard_dirs": ["scripts", "references", "metadata"],
+  "naming": {
+    "skill_dir": "kebab-case-lowercase",
+    "scripts": "snake_case.sh",
+    "references": "UPPER-KEBAB.md",
+    "metadata": "config.json"
+  }
+}

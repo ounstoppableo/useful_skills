@@ -1,0 +1,18 @@
+{
+  "name": "learn-project",
+  "version": "1.0.0",
+  "description": "通用项目学习技能，系统性分析任意陌生项目并生成结构化学习文档",
+  "author": "user",
+  "language": "zh-CN",
+  "output_dir": "learning_cornerstone",
+  "stages": [
+    { "id": "01", "file": "01-overview.md", "title": "项目概览" },
+    { "id": "02", "file": "02-entrypoint.md", "title": "入口与启动流程" },
+    { "id": "03", "file": "03-data-flow.md", "title": "核心数据流" },
+    { "id": "04", "file": "04-modules.md", "title": "模块与服务拆解" },
+    { "id": "05", "file": "05-deep-dive.md", "title": "关键实现深潜" },
+    { "id": "06", "file": "06-getting-started.md", "title": "上手指南" },
+    { "id": "07", "file": "07-qa-notes.md", "title": "问答笔记" }
+  ],
+  "qa_split_threshold": 5
+}
